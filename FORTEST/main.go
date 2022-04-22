@@ -14,4 +14,7 @@ func main() {
 	pkg2.GetOuter()
 	fmt.Println(pkg2.Outer)
 	fmt.Println("it is a testing commit")
+	fmt.Println("it is a testing commit2")
+	fmt.Println("it is a testing commit3")
+	fmt.Println("it is a testing commit4")
 }
