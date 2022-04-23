@@ -1,4 +1,4 @@
-package pkg2
+package test01
 
 var (
 	Outer int
