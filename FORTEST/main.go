@@ -12,4 +12,8 @@ func main() {
 	fmt.Println("it is a testing commit")
 	fmt.Println("it is a testing commit--remote")
 	fmt.Println("it is a testing commit--remote")
+	strs := [...]string{"lisi", "zhangsan", "awang"}
+	for _, x := range strs {
+		fmt.Println(x)
+	}
 }
