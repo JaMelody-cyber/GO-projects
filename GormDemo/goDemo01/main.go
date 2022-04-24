@@ -43,4 +43,6 @@ func main() {
 	db.Model(&tmp_u).Update("age", "33")
 	tmp_u_2 := userInfo{Name: "lishengyi"}
 	db.Delete(&tmp_u_2, "age=?", "13")
+	db.Select("name,age").Find(&res)
+	fmt.Println(res)
 }

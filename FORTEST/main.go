@@ -16,4 +16,7 @@ func main() {
 	for _, x := range strs {
 		fmt.Println(x)
 	}
+	s := []int{1, 2, 3, 4}
+	s1 := make([]int, 0)
+	fmt.Printf("%T,%T\n", s, s1)
 }
